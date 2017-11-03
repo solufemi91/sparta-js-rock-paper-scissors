@@ -4,20 +4,24 @@ var computerOptions = ['rock', 'paper', 'scissors']
 
 alert("Welcome , let's play rock, paper and scissors")
 
-// ask for a move
 
+// I want the game to restart after the first round
+//Code block has been created
+for (var i = 0; i < 5; i++){
 var playerMove = prompt("Please pick a move from rock paper and scissors")
 
-// generate the computer's move
+
 
 var computerMove = computerOptions[Math.floor(Math.random() * 3)]
 
-// compare values and give message
 
-if (computerMove == playerMove) {
-  alert("TIE")
+
+if (computerMove == playerMove){
+  alert("There is a tie")
 } else if (playerMove == "paper" && computerMove == "rock" || playerMove == "rock" && computerMove == "scissors" || playerMove == "scisscors" && computerMove == "rock"){
-  alert("I WON")
+  alert("Congratulations!!!, you won this round")
 } else {
-  alert("I LOST")
+  alert("UNLUCKY MATE! The Computer has won this round")
+}
+
 }
