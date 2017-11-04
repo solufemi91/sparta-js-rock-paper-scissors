@@ -48,11 +48,6 @@ function startGame() {
       alert("That was a tie with - " + playerMove + computerMove)
     }
 
-
-
-
-
-
   }
 
 }
@@ -71,7 +66,5 @@ function checkForWinner(playerMove, computerMove) {
 
   return winner;
 }
-
-
 
 startGame()
