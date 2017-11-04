@@ -13,13 +13,13 @@ var computerMove = computerOptions[Math.floor(Math.random() * 3)]
 
 if (computerMove == playerMove){
 
-  alert("There is a tie. PlayerScore: "+ playerScore + " ComputerScore is " + computerScore)
+  alert("There is a tie. PlayerScore: "+ playerScore + " ComputerScore is " + computerScore + "      PlayerMove: " + playerMove + " ComputerMove: " + computerMove)
 } else if (playerMove == "paper" && computerMove == "rock" || playerMove == "rock" && computerMove == "scissors" || playerMove == "scisscors" && computerMove == "rock"){
   playerScore++
-  alert("Congratulations!!!, you won this round. PlayerScore: " + playerScore + " ComputerScore is " + computerScore)
+  alert("Congratulations!!!, you won this round. PlayerScore: " + playerScore + " ComputerScore is " + computerScore + "     PlayerMove: " + playerMove + "      ComputerMove: " + computerMove)
 } else {
   computerScore++
-  alert("UNLUCKY MATE! The Computer has won this round. PlayerScore: " + playerScore + " ComputerScore is " + computerScore)
+  alert("UNLUCKY MATE! The Computer has won this round. PlayerScore: " + playerScore + " ComputerScore is " + computerScore + "    PlayerMove: " + playerMove + "    ComputerMove: " + computerMove)
 }
 
 } if (computerScore == 5){
