@@ -28,3 +28,15 @@ Setup:-
 __**Things to think about**__
 * Try and separate your code out into functions
 Add Comment Collapse
+
+### What I managed to deliver
+
+I managed to deliver all the deliverables. However I did not manage to seperate all my code into functions.
+
+### Things that went well
+
+I found this project reasonably easy
+
+### Things I struggled with
+
+Thinking how to seperate my code into functions
